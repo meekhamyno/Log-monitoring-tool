@@ -1,19 +1,24 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "api": {
+    "logList": [
+      {
+        "id": 1,
+        "name": "appserver",
+        "time_stamp": "2022-09-30 19:07:59.050",
+        "log_level": "info",
+        "description": "created new connection",
+        "handled_by": "null",
+        "handled_time": ""
+      },
+      {
+        "id": 2,
+        "name": "appserver",
+        "time_stamp": "2022-09-30 19:08:21.404",
+        "log_level": "critical",
+        "description": "heartbeat long overdue",
+        "handled_by": "null",
+        "handled_time": ""
+      }
+    ]
   }
 }
